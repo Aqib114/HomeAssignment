@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA072C312DB2C2F800279CC2 /* HomeAssignmentIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C302DB2C2F800279CC2 /* HomeAssignmentIOSApp.swift */; };
+		BA072C332DB2C2F800279CC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C322DB2C2F800279CC2 /* ContentView.swift */; };
+		BA072C352DB2C2FE00279CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA072C342DB2C2FE00279CC2 /* Assets.xcassets */; };
+		BA072C382DB2C2FE00279CC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA072C372DB2C2FE00279CC2 /* Preview Assets.xcassets */; };
+		BA072C462DB2C3BC00279CC2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C452DB2C3BC00279CC2 /* Location.swift */; };
+		BA072C482DB2C3CB00279CC2 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C472DB2C3CB00279CC2 /* Reminder.swift */; };
+		BA072C4A2DB2C3FA00279CC2 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C492DB2C3FA00279CC2 /* LocationService.swift */; };
+		BA072C4C2DB2C40700279CC2 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C4B2DB2C40700279CC2 /* CoreDataManager.swift */; };
+		BA072C4E2DB2C41B00279CC2 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C4D2DB2C41B00279CC2 /* LocationViewModel.swift */; };
+		BA072C502DB2C42600279CC2 /* ReminderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C4F2DB2C42600279CC2 /* ReminderViewModel.swift */; };
+		BA072C522DB2C43C00279CC2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C512DB2C43C00279CC2 /* MapView.swift */; };
+		BA072C542DB2C44900279CC2 /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C532DB2C44900279CC2 /* ReminderListView.swift */; };
+		BA072C562DB2C45C00279CC2 /* RadiusSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C552DB2C45C00279CC2 /* RadiusSelectorView.swift */; };
+		BA072C582DB2C46A00279CC2 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C572DB2C46A00279CC2 /* NotificationManager.swift */; };
+		BA072C5A2DB2C47500279CC2 /* LocationPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C592DB2C47500279CC2 /* LocationPermissionManager.swift */; };
+		BA072C5C2DB2C48400279CC2 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C5B2DB2C48400279CC2 /* PreviewData.swift */; };
+		BA072C5F2DB2C68700279CC2 /* GeofenceReminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA072C5D2DB2C68700279CC2 /* GeofenceReminder.xcdatamodeld */; };
+		BA072C612DB2CF6000279CC2 /* GeofenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C602DB2CF6000279CC2 /* GeofenceManager.swift */; };
+		BA072C632DB4086500279CC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C622DB4086500279CC2 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA072C2D2DB2C2F800279CC2 /* HomeAssignmentIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeAssignmentIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA072C302DB2C2F800279CC2 /* HomeAssignmentIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAssignmentIOSApp.swift; sourceTree = "<group>"; };
+		BA072C322DB2C2F800279CC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA072C342DB2C2FE00279CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA072C372DB2C2FE00279CC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA072C452DB2C3BC00279CC2 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		BA072C472DB2C3CB00279CC2 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		BA072C492DB2C3FA00279CC2 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		BA072C4B2DB2C40700279CC2 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		BA072C4D2DB2C41B00279CC2 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		BA072C4F2DB2C42600279CC2 /* ReminderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewModel.swift; sourceTree = "<group>"; };
+		BA072C512DB2C43C00279CC2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		BA072C532DB2C44900279CC2 /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
+		BA072C552DB2C45C00279CC2 /* RadiusSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusSelectorView.swift; sourceTree = "<group>"; };
+		BA072C572DB2C46A00279CC2 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		BA072C592DB2C47500279CC2 /* LocationPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPermissionManager.swift; sourceTree = "<group>"; };
+		BA072C5B2DB2C48400279CC2 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		BA072C5E2DB2C68700279CC2 /* GeofenceReminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GeofenceReminder.xcdatamodel; sourceTree = "<group>"; };
+		BA072C602DB2CF6000279CC2 /* GeofenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeofenceManager.swift; sourceTree = "<group>"; };
+		BA072C622DB4086500279CC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA072C642DB410E900279CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA072C2A2DB2C2F800279CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA072C242DB2C2F700279CC2 = {
+			isa = PBXGroup;
+			children = (
+				BA072C5D2DB2C68700279CC2 /* GeofenceReminder.xcdatamodeld */,
+				BA072C2F2DB2C2F800279CC2 /* HomeAssignmentIOS */,
+				BA072C2E2DB2C2F800279CC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA072C2E2DB2C2F800279CC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA072C2D2DB2C2F800279CC2 /* HomeAssignmentIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA072C2F2DB2C2F800279CC2 /* HomeAssignmentIOS */ = {
+			isa = PBXGroup;
+			children = (
+				BA072C642DB410E900279CC2 /* Info.plist */,
+				BA072C3E2DB2C33C00279CC2 /* Models */,
+				BA072C3F2DB2C34D00279CC2 /* Networking */,
+				BA072C402DB2C37B00279CC2 /* Persistence */,
+				BA072C412DB2C38A00279CC2 /* ViewModels */,
+				BA072C422DB2C39300279CC2 /* Views */,
+				BA072C432DB2C39C00279CC2 /* Helpers */,
+				BA072C442DB2C3A500279CC2 /* Resources */,
+				BA072C302DB2C2F800279CC2 /* HomeAssignmentIOSApp.swift */,
+				BA072C342DB2C2FE00279CC2 /* Assets.xcassets */,
+				BA072C362DB2C2FE00279CC2 /* Preview Content */,
+				BA072C622DB4086500279CC2 /* AppDelegate.swift */,
+			);
+			path = HomeAssignmentIOS;
+			sourceTree = "<group>";
+		};
+		BA072C362DB2C2FE00279CC2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA072C372DB2C2FE00279CC2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA072C3E2DB2C33C00279CC2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA072C452DB2C3BC00279CC2 /* Location.swift */,
+				BA072C472DB2C3CB00279CC2 /* Reminder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BA072C3F2DB2C34D00279CC2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				BA072C492DB2C3FA00279CC2 /* LocationService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		BA072C402DB2C37B00279CC2 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				BA072C4B2DB2C40700279CC2 /* CoreDataManager.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		BA072C412DB2C38A00279CC2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BA072C4D2DB2C41B00279CC2 /* LocationViewModel.swift */,
+				BA072C4F2DB2C42600279CC2 /* ReminderViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BA072C422DB2C39300279CC2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA072C322DB2C2F800279CC2 /* ContentView.swift */,
+				BA072C512DB2C43C00279CC2 /* MapView.swift */,
+				BA072C532DB2C44900279CC2 /* ReminderListView.swift */,
+				BA072C552DB2C45C00279CC2 /* RadiusSelectorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA072C432DB2C39C00279CC2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BA072C572DB2C46A00279CC2 /* NotificationManager.swift */,
+				BA072C592DB2C47500279CC2 /* LocationPermissionManager.swift */,
+				BA072C602DB2CF6000279CC2 /* GeofenceManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BA072C442DB2C3A500279CC2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA072C5B2DB2C48400279CC2 /* PreviewData.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA072C2C2DB2C2F800279CC2 /* HomeAssignmentIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA072C3B2DB2C2FE00279CC2 /* Build configuration list for PBXNativeTarget "HomeAssignmentIOS" */;
+			buildPhases = (
+				BA072C292DB2C2F800279CC2 /* Sources */,
+				BA072C2A2DB2C2F800279CC2 /* Frameworks */,
+				BA072C2B2DB2C2F800279CC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeAssignmentIOS;
+			productName = HomeAssignmentIOS;
+			productReference = BA072C2D2DB2C2F800279CC2 /* HomeAssignmentIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA072C252DB2C2F700279CC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BA072C2C2DB2C2F800279CC2 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = BA072C282DB2C2F700279CC2 /* Build configuration list for PBXProject "HomeAssignmentIOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA072C242DB2C2F700279CC2;
+			productRefGroup = BA072C2E2DB2C2F800279CC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA072C2C2DB2C2F800279CC2 /* HomeAssignmentIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA072C2B2DB2C2F800279CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA072C382DB2C2FE00279CC2 /* Preview Assets.xcassets in Resources */,
+				BA072C352DB2C2FE00279CC2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA072C292DB2C2F800279CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA072C4C2DB2C40700279CC2 /* CoreDataManager.swift in Sources */,
+				BA072C562DB2C45C00279CC2 /* RadiusSelectorView.swift in Sources */,
+				BA072C332DB2C2F800279CC2 /* ContentView.swift in Sources */,
+				BA072C542DB2C44900279CC2 /* ReminderListView.swift in Sources */,
+				BA072C5C2DB2C48400279CC2 /* PreviewData.swift in Sources */,
+				BA072C5F2DB2C68700279CC2 /* GeofenceReminder.xcdatamodeld in Sources */,
+				BA072C462DB2C3BC00279CC2 /* Location.swift in Sources */,
+				BA072C612DB2CF6000279CC2 /* GeofenceManager.swift in Sources */,
+				BA072C5A2DB2C47500279CC2 /* LocationPermissionManager.swift in Sources */,
+				BA072C4A2DB2C3FA00279CC2 /* LocationService.swift in Sources */,
+				BA072C582DB2C46A00279CC2 /* NotificationManager.swift in Sources */,
+				BA072C502DB2C42600279CC2 /* ReminderViewModel.swift in Sources */,
+				BA072C4E2DB2C41B00279CC2 /* LocationViewModel.swift in Sources */,
+				BA072C312DB2C2F800279CC2 /* HomeAssignmentIOSApp.swift in Sources */,
+				BA072C522DB2C43C00279CC2 /* MapView.swift in Sources */,
+				BA072C632DB4086500279CC2 /* AppDelegate.swift in Sources */,
+				BA072C482DB2C3CB00279CC2 /* Reminder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BA072C392DB2C2FE00279CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA072C3A2DB2C2FE00279CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA072C3C2DB2C2FE00279CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HomeAssignmentIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = YBC6QZE5G7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeAssignmentIOS/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app needs access to your location at all times to monitor geofences even when the app is in the background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs access to your location when you're using it to monitor geofences.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.homeassignment.app.HomeAssignmentIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA072C3D2DB2C2FE00279CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HomeAssignmentIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = YBC6QZE5G7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeAssignmentIOS/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app needs access to your location at all times to monitor geofences even when the app is in the background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs access to your location when you're using it to monitor geofences.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.homeassignment.app.HomeAssignmentIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA072C282DB2C2F700279CC2 /* Build configuration list for PBXProject "HomeAssignmentIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA072C392DB2C2FE00279CC2 /* Debug */,
+				BA072C3A2DB2C2FE00279CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA072C3B2DB2C2FE00279CC2 /* Build configuration list for PBXNativeTarget "HomeAssignmentIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA072C3C2DB2C2FE00279CC2 /* Debug */,
+				BA072C3D2DB2C2FE00279CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA072C5D2DB2C68700279CC2 /* GeofenceReminder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA072C5E2DB2C68700279CC2 /* GeofenceReminder.xcdatamodel */,
+			);
+			currentVersion = BA072C5E2DB2C68700279CC2 /* GeofenceReminder.xcdatamodel */;
+			path = GeofenceReminder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA072C252DB2C2F700279CC2 /* Project object */;
+}
