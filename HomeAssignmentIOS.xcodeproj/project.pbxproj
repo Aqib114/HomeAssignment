@@ -13,19 +13,18 @@
 		BA072C382DB2C2FE00279CC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA072C372DB2C2FE00279CC2 /* Preview Assets.xcassets */; };
 		BA072C462DB2C3BC00279CC2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C452DB2C3BC00279CC2 /* Location.swift */; };
 		BA072C482DB2C3CB00279CC2 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C472DB2C3CB00279CC2 /* Reminder.swift */; };
-		BA072C4A2DB2C3FA00279CC2 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C492DB2C3FA00279CC2 /* LocationService.swift */; };
 		BA072C4C2DB2C40700279CC2 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C4B2DB2C40700279CC2 /* CoreDataManager.swift */; };
 		BA072C4E2DB2C41B00279CC2 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C4D2DB2C41B00279CC2 /* LocationViewModel.swift */; };
 		BA072C502DB2C42600279CC2 /* ReminderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C4F2DB2C42600279CC2 /* ReminderViewModel.swift */; };
 		BA072C522DB2C43C00279CC2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C512DB2C43C00279CC2 /* MapView.swift */; };
 		BA072C542DB2C44900279CC2 /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C532DB2C44900279CC2 /* ReminderListView.swift */; };
-		BA072C562DB2C45C00279CC2 /* RadiusSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C552DB2C45C00279CC2 /* RadiusSelectorView.swift */; };
 		BA072C582DB2C46A00279CC2 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C572DB2C46A00279CC2 /* NotificationManager.swift */; };
-		BA072C5A2DB2C47500279CC2 /* LocationPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C592DB2C47500279CC2 /* LocationPermissionManager.swift */; };
 		BA072C5C2DB2C48400279CC2 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C5B2DB2C48400279CC2 /* PreviewData.swift */; };
 		BA072C5F2DB2C68700279CC2 /* GeofenceReminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA072C5D2DB2C68700279CC2 /* GeofenceReminder.xcdatamodeld */; };
 		BA072C612DB2CF6000279CC2 /* GeofenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C602DB2CF6000279CC2 /* GeofenceManager.swift */; };
 		BA072C632DB4086500279CC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C622DB4086500279CC2 /* AppDelegate.swift */; };
+		BA072C682DB6044400279CC2 /* CircularRadiusSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C672DB6044300279CC2 /* CircularRadiusSelector.swift */; };
+		BA072C6A2DB6306700279CC2 /* IdentifiableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA072C692DB6306700279CC2 /* IdentifiableError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,20 +35,19 @@
 		BA072C372DB2C2FE00279CC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA072C452DB2C3BC00279CC2 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		BA072C472DB2C3CB00279CC2 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
-		BA072C492DB2C3FA00279CC2 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		BA072C4B2DB2C40700279CC2 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		BA072C4D2DB2C41B00279CC2 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
 		BA072C4F2DB2C42600279CC2 /* ReminderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewModel.swift; sourceTree = "<group>"; };
 		BA072C512DB2C43C00279CC2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		BA072C532DB2C44900279CC2 /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
-		BA072C552DB2C45C00279CC2 /* RadiusSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusSelectorView.swift; sourceTree = "<group>"; };
 		BA072C572DB2C46A00279CC2 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
-		BA072C592DB2C47500279CC2 /* LocationPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPermissionManager.swift; sourceTree = "<group>"; };
 		BA072C5B2DB2C48400279CC2 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		BA072C5E2DB2C68700279CC2 /* GeofenceReminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GeofenceReminder.xcdatamodel; sourceTree = "<group>"; };
 		BA072C602DB2CF6000279CC2 /* GeofenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeofenceManager.swift; sourceTree = "<group>"; };
 		BA072C622DB4086500279CC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA072C642DB410E900279CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BA072C672DB6044300279CC2 /* CircularRadiusSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularRadiusSelector.swift; sourceTree = "<group>"; };
+		BA072C692DB6306700279CC2 /* IdentifiableError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +83,6 @@
 			children = (
 				BA072C642DB410E900279CC2 /* Info.plist */,
 				BA072C3E2DB2C33C00279CC2 /* Models */,
-				BA072C3F2DB2C34D00279CC2 /* Networking */,
 				BA072C402DB2C37B00279CC2 /* Persistence */,
 				BA072C412DB2C38A00279CC2 /* ViewModels */,
 				BA072C422DB2C39300279CC2 /* Views */,
@@ -112,16 +109,9 @@
 			children = (
 				BA072C452DB2C3BC00279CC2 /* Location.swift */,
 				BA072C472DB2C3CB00279CC2 /* Reminder.swift */,
+				BA072C692DB6306700279CC2 /* IdentifiableError.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		BA072C3F2DB2C34D00279CC2 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				BA072C492DB2C3FA00279CC2 /* LocationService.swift */,
-			);
-			path = Networking;
 			sourceTree = "<group>";
 		};
 		BA072C402DB2C37B00279CC2 /* Persistence */ = {
@@ -147,7 +137,7 @@
 				BA072C322DB2C2F800279CC2 /* ContentView.swift */,
 				BA072C512DB2C43C00279CC2 /* MapView.swift */,
 				BA072C532DB2C44900279CC2 /* ReminderListView.swift */,
-				BA072C552DB2C45C00279CC2 /* RadiusSelectorView.swift */,
+				BA072C672DB6044300279CC2 /* CircularRadiusSelector.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,7 +146,6 @@
 			isa = PBXGroup;
 			children = (
 				BA072C572DB2C46A00279CC2 /* NotificationManager.swift */,
-				BA072C592DB2C47500279CC2 /* LocationPermissionManager.swift */,
 				BA072C602DB2CF6000279CC2 /* GeofenceManager.swift */,
 			);
 			path = Helpers;
@@ -241,15 +230,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA072C4C2DB2C40700279CC2 /* CoreDataManager.swift in Sources */,
-				BA072C562DB2C45C00279CC2 /* RadiusSelectorView.swift in Sources */,
+				BA072C682DB6044400279CC2 /* CircularRadiusSelector.swift in Sources */,
 				BA072C332DB2C2F800279CC2 /* ContentView.swift in Sources */,
 				BA072C542DB2C44900279CC2 /* ReminderListView.swift in Sources */,
 				BA072C5C2DB2C48400279CC2 /* PreviewData.swift in Sources */,
+				BA072C6A2DB6306700279CC2 /* IdentifiableError.swift in Sources */,
 				BA072C5F2DB2C68700279CC2 /* GeofenceReminder.xcdatamodeld in Sources */,
 				BA072C462DB2C3BC00279CC2 /* Location.swift in Sources */,
 				BA072C612DB2CF6000279CC2 /* GeofenceManager.swift in Sources */,
-				BA072C5A2DB2C47500279CC2 /* LocationPermissionManager.swift in Sources */,
-				BA072C4A2DB2C3FA00279CC2 /* LocationService.swift in Sources */,
 				BA072C582DB2C46A00279CC2 /* NotificationManager.swift in Sources */,
 				BA072C502DB2C42600279CC2 /* ReminderViewModel.swift in Sources */,
 				BA072C4E2DB2C41B00279CC2 /* LocationViewModel.swift in Sources */,

@@ -7,6 +7,7 @@
 
 import Foundation
 import CoreData
+import CoreLocation
 
 struct Reminder: Identifiable {
     let id: UUID
@@ -15,4 +16,7 @@ struct Reminder: Identifiable {
     let lat: Double
     let lon: Double
     let radius: Double
+    var coordinate: CLLocationCoordinate2D {
+            CLLocationCoordinate2D(latitude: lat, longitude: lon)
+        }
 }

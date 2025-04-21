@@ -11,11 +11,11 @@ struct ContentView: View {
         TabView {
             MapView()
                 .tabItem { Label("Map", systemImage: "map") }
+                .background(.white)
             
             ReminderListView()
                 .tabItem { Label("Reminders", systemImage: "list.bullet") }
         }
-        .accentColor(.blue) 
         .background(.white)
     }
 }

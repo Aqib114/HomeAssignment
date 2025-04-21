@@ -11,8 +11,7 @@ import SwiftUI
 @main
 
 struct HomeAssignmentIOSApp: App {
-    // Attach the AppDelegate here
-        @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     init(){
         NotificationManager.shared.requestAuthorization()
     }

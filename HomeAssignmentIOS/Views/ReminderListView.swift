@@ -12,12 +12,10 @@ struct ReminderListView: View {
     var body: some View {
         VStack {
             if viewModel.reminders.isEmpty {
-                // Show a message when there are no reminders
                 Text("No reminders available.")
                     .foregroundColor(.gray)
                     .italic()
             } else {
-                // Display the list of reminders if they exist
                 List(viewModel.reminders) { reminder in
                     VStack(alignment: .leading) {
                         Text(reminder.name).bold()
@@ -28,7 +26,6 @@ struct ReminderListView: View {
             }
         }
         .onAppear {
-            // Ensure reminders are loaded when the view appears
             viewModel.loadReminders()
         }
     }

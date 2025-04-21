@@ -7,24 +7,20 @@
 import Foundation
 
 class ReminderViewModel: ObservableObject {
-    @Published var reminders: [Reminder] = []  // List of reminders that will be observed by the view
-    private let coreData = CoreDataManager.shared  // CoreDataManager instance to interact with CoreData
+    
+    @Published var reminders: [Reminder] = []
+    private let coreData = CoreDataManager.shared
     
     init() {
-        loadReminders()  // Load reminders when the view model is initialized
+        loadReminders()
     }
     
-    // Load reminders from CoreData
     func loadReminders() {
-        reminders = coreData.fetchReminders()  // Fetch reminders using CoreDataManager
-        // If no reminders are found, you can handle the logic here if needed, like logging or showing an alert
+        reminders = coreData.fetchReminders()
     }
 
-    // Add a reminder to CoreData and refresh the list
     func addReminder(_ reminder: Reminder) {
-        coreData.saveReminder(reminder)  // Save the reminder to CoreData
-        loadReminders()  // Reload the reminders after adding a new one to update the UI
+        coreData.saveReminder(reminder)
+        loadReminders()
     }
-    
-    // You could also add a deleteReminder function here if needed for deleting reminders.
 }
